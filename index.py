@@ -11,3 +11,7 @@ hint = StringVar()
 score = IntVar()
 final_score = IntVar()
 guess = IntVar()
+
+score.set(5)
+final_score.set(score.get())
+hint.set("Guess a number between 1 to 50")
